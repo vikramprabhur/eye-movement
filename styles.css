@@ -12,9 +12,10 @@ body {
   text-align: center;
 }
 .eye {
-  width: 240px;
-  height: 120px;
-  background: #fff;
+  width: 420px;
+  height: 240px;
+  background: rgb(255,252,20);
+  background: radial-gradient(circle, rgba(255,252,20,1) 0%, rgba(240,4,4,1) 61%);
   display: inline-block;
   margin: 40px;
   border-radius: 50%;
@@ -22,8 +23,8 @@ body {
   overflow: hidden;
 }
 .ball {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   background: #000;
   position: absolute;
   top: 50%;
@@ -39,11 +40,12 @@ body {
   font-size: 3em;
   padding: 2px;
   background:transparent;
+  color: #f00404;
 }
 
 h1 {
   text-align: center;
-  color: brown;
+  color: #f00404;
   padding: 30px;
   text-transform: uppercase;
   font-size: 3em;
@@ -52,7 +54,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: firebrick;
+  color: #f00404;
   padding: 30px;
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -60,6 +62,6 @@ h2 {
 
 h3 {
   text-align: center;
-  color: firebrick;
+  color: #f00404;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
